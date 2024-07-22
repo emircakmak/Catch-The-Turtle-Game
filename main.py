@@ -54,8 +54,8 @@ def countdown(time):
     elif score >= 5:
         game_over = True
         count_down_turtle.clear()
-        mike.hideturtle()
         count_down_turtle.setposition(0, 0)
+        mike.hideturtle()
         count_down_turtle.color("red")
         count_down_turtle.write("WIN!", align='center', font=FONT3)
     else:
